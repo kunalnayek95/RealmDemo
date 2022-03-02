@@ -225,6 +225,7 @@
 				6A745BAD27CBE84600695951 /* Sources */,
 				6A745BAE27CBE84600695951 /* Frameworks */,
 				6A745BAF27CBE84600695951 /* Resources */,
+				B255FE1472ECDEE98D3B05E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +263,7 @@
 				6A745BD027CBE84800695951 /* Sources */,
 				6A745BD127CBE84800695951 /* Frameworks */,
 				6A745BD227CBE84800695951 /* Resources */,
+				C28520E7895338B50EED9718 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -386,6 +388,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B255FE1472ECDEE98D3B05E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmDemoProj/Pods-RealmDemoProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmDemoProj/Pods-RealmDemoProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmDemoProj/Pods-RealmDemoProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C28520E7895338B50EED9718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmDemoProj-RealmDemoProjUITests/Pods-RealmDemoProj-RealmDemoProjUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmDemoProj-RealmDemoProjUITests/Pods-RealmDemoProj-RealmDemoProjUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmDemoProj-RealmDemoProjUITests/Pods-RealmDemoProj-RealmDemoProjUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9BA0D9CA2E8B33D8C9EFEF1 /* [CP] Check Pods Manifest.lock */ = {
